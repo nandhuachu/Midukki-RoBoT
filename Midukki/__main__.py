@@ -30,9 +30,9 @@ async def start_command(client: Midukki_RoboT, message: message()):
     if len(message.command) != 2:
         if environ.get("BOT_PICS"):
             try:
-                await message.reply_photo(photo=choice(Configs.START_PICS), caption=Configs.START_MESSAGE.format(bot=bot_mention, mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.start_buttons))         
+                await message.reply_video(video=choice(Configs.START_PICS), caption=Configs.START_MESSAGE.format(bot=bot_mention, mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.start_buttons))         
             except Exception as e:
-                await message.reply_photo(photo=choice(Configs.START_PICS), caption=START_TXT.format(bot=bot_mention, mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.start_buttons))         
+                await message.reply_video(video=choice(Configs.START_PICS), caption=START_TXT.format(bot=bot_mention, mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.start_buttons))         
                 await message.reply(e)
         else:
             try:
@@ -64,7 +64,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                     ]
                 ]    
                 pr0fess0r_99 = markup()(pr0fess0r_99)
-                await message.reply_photo(photo=choice(FORCES), caption=f"""Hello {message.from_user.mention}. \nYou Have <a href="{invite_link.invite_link}">Not Subscribed</a> 𝚃𝙾 <a href="{invite_link.invite_link}">my updates channel</a>.so you do not get the files on here""", reply_markup=pr0fess0r_99)                
+                await message.reply_video(video=choice(FORCES), caption=f"""Hello {message.from_user.mention}. \nYou Have <a href="{invite_link.invite_link}">Not Subscribed</a> 𝚃𝙾 <a href="{invite_link.invite_link}">my updates channel</a>.so you do not get the files on here""", reply_markup=pr0fess0r_99)                
                 return
         try:
             mrk, file_id, grp_id = message.text.split("_-_")
@@ -84,7 +84,7 @@ async def help_command(client: Midukki_RoboT, message: message()):
     bot_mention = Bots.BOT_MENTION
     bot_username = Bots.BOT_USERNAME    
     if environ.get("BOT_PICS"):
-        await message.reply_photo(photo=choice(Configs.START_PICS), caption=HELP_TXT.format(bot=bot_mention, mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.help_buttons))         
+        await message.reply_video(video=choice(Configs.START_PICS), caption=HELP_TXT.format(bot=bot_mention, mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.help_buttons))         
     else:
         await message.reply_text(text=HELP_TXT.format(bot=bot_mention, mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.help_buttons))
             
@@ -94,7 +94,7 @@ async def about_command(client: Midukki_RoboT, message: message()):
     bot_name = Bots.BOT_NAME
     bot_username = Bots.BOT_USERNAME    
     if environ.get("BOT_PICS"):
-        await message.reply_photo(photo=choice(Configs.START_PICS), caption=ABOUT_TXT.format(mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.help_buttons))         
+        await message.reply_video(video=choice(Configs.START_PICS), caption=ABOUT_TXT.format(mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.help_buttons))         
     else:
         await message.reply_text(text=ABOUT_TXT.format(mention=mention, name=bot_name, username=bot_username), reply_markup=markup()(vars.about_buttons))
           
@@ -104,7 +104,7 @@ async def donate_command(client: Midukki_RoboT, message: message()):
     bot_name = Bots.BOT_NAME
     bot_username = Bots.BOT_USERNAME    
     if environ.get("BOT_PICS"):
-        await message.reply_photo(photo=choice(Configs.START_PICS), caption=DONATE_TXT.format(mention=mention, name=bot_name, username=bot_username))         
+        await message.reply_video(video=choice(Configs.START_PICS), caption=DONATE_TXT.format(mention=mention, name=bot_name, username=bot_username))         
     else:
         await message.reply_text(text=DONATE_TXT.format(mention=mention, name=bot_name, username=bot_username))
     await message.reply(f"You can also donate to the person currently running me [Here]({Configs.DONATE_LINKS})")  
