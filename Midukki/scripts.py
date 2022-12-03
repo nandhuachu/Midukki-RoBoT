@@ -1,44 +1,42 @@
 START_TXT = """
-Hello 👋 {mention} 
+𝙷𝙴𝙻𝙻𝙾 {mention},
 
-I'm <b>{bot}</b> ✨ an advanced telegram Group management
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <b>{bot}</b>,
+𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝚁𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍
 
-I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential..!
+⚠️ 𝙼𝚘𝚛𝚎 𝙷𝚎𝚕𝚙 𝙲𝚑𝚎𝚌𝚔 𝙷𝚎𝚕𝚙 𝙱𝚞𝚝𝚝𝚘𝚗 𝙱𝚎𝚕𝚘𝚠
 
-Join <b><a href=http://t.me/Mo_Tech_YT>my news channel</a></b> to get information on all the latest updates
+©️ MᴀɪɴᴛᴀɪɴᴇD Bʏ : <a href=https://t.me/tvseriezzz_group>♠️ 𝑨𝒍𝒍 𝑰𝒏 𝑶𝒏𝒆 𝑮𝒓𝒐𝒖𝒑 🎬</a>
 """
 
 HELP_TXT = """
-👋 <b>Hello {mention}!</b>
+𝙷𝙴𝚈 {mention}
 
-I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules          
+○ 𝙸𝚝'𝚜 𝙽𝚘𝚝 𝙲𝚘𝚖𝚙𝚕𝚒𝚌𝚊𝚝𝚎𝚍...🤓
 
-📚 <u><b>HelpFull Commands</b></u>:
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.
 
-- /start : Starts me! You've probably already used this!.
-- /help : Sends this message; I'll tell you more about models!
-- /about : Sends this message; I'll tell you more about myself!
-- /donate : Gives you info on how to support me and my creator!
+ 𝙽𝚘𝚝𝚒𝚌𝚎 📙:-
 
-<b>All commands can be used with the following: [ / ]</b>
+○ 𝙳𝚘𝚗'𝚝 𝚂𝚙𝚊𝚖 𝙼𝚎...🤒
+
+©️ MᴀɪɴᴛᴀɪɴᴇD Bʏ : <a href=https://t.me/tvseriezzz_group>♠️ 𝑨𝒍𝒍 𝑰𝒏 𝑶𝒏𝒆 𝑮𝒓𝒐𝒖𝒑 🎬</a>
 """
 
 ABOUT_TXT = """
-[{name}](t.me/{username}) Was created on September 4, 2022
-We are currently developing this bot, using only the Pyrogram library.
+➪ 𝑴𝒚 𝒏𝒂𝒎𝒆 : [{name}](t.me/{username}) 
+➪ 𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : <a href="https://t.me/MrC_VENOM">ʜᴇʀᴇ</a>
+➪ 𝑳𝒊𝒃𝒓𝒂𝒓𝒚 : <a href='https://docs.pyrogram.org/'>𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎</a>
+➪ 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆 : <a href='https://docs.pyrogram.org/'>𝑷𝒚𝒕𝒉𝒐𝒏 3</a>
+➪ 𝑫𝒂𝒕𝒂 𝒃𝒂𝒔𝒆 : <a href='https://www.mongodb.com/'>𝑴𝒐𝒏𝒈𝒐𝑫𝑩</a>
+➪ 𝑩𝒐𝒕 𝒔𝒆𝒓𝒗𝒆𝒓 : <a href="https://t.me/quickfastt">𝑸𝒖𝒊𝒄𝒌𝑭𝒂𝒔𝒕</a>
+➪ 𝑩𝒖𝒊𝒍𝒅 𝑺𝒕𝒂𝒕𝒖𝒔 : v2.0.3 [ 𝑺𝒕𝒂𝒃𝒍𝒆 ]
 
-➾ Developers : Muhammed
-➾ Language : Python3
-➾ Framework : Pyrogram
-➾ Database : Mongo db
+©️ MᴀɪɴᴛᴀɪɴᴇD Bʏ : <a href=https://t.me/tvseriezzz_group>♠️ 𝑨𝒍𝒍 𝑰𝒏 𝑶𝒏𝒆 𝑮𝒓𝒐𝒖𝒑 🎬</a>
 """
 
 DONATE_TXT = """
-If you like this project of mine, you can donate by clicking on the given link
-
-Dev : [Muhammed](t.me/Pr0fess0r_99)
-Paytm : [Click Here](https://p.paytm.me/xCTH/7yzmtgie)
-  or UPI `motech8129@okaxis`
+If you like this project of mine, you can donate
 """
 
 STATUS_TXT = """
