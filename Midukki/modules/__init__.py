@@ -266,13 +266,25 @@ class vars(object):
         [
             button()
                 (
-                    "Support",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                    "♻️ ⒼⓇⓄⓊⓅ ♻️",
+                               url="https://t.me/tvseriezzz_group"
                 ),
             button()
                 (
-                    "Updates",
-                        url="https://t.me/Mo_Tech_YT"
+                    "⭕️𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻⭕️",
+                        url="https://t.me/tvseriezzz_update"
+                )
+        ],
+        [
+            button()
+                (
+                    "♻️ ⒼⓇⓄⓊⓅ 2 ♻️",
+                               url="https://t.me/MrCVENOM_chat"
+                ),
+            button()
+                (
+                    "🔥 Dev 🔥",
+                        url="https://t.me/Mrc_VENOM"
                 )
         ],
         [
@@ -345,25 +357,13 @@ class vars(object):
         [
             button()
                 (
-                    "Support",
-                        url="https://t.me/Mo_Tech_YT"
+                    "♻️ ⒼⓇⓄⓊⓅ ♻️",
+                               url="https://t.me/tvseriezzz_group"
                 ),
             button()
                 (
-                    "Source",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
-                )
-        ],
-        [
-            button()
-                (
-                    "Tutorial",
-                        url="https://youtu.be/63K9xkKMBoo"
-                ),
-            button()
-                (
-                    "Insta",
-                        url="https://www.instagram.com/mrk_yt_"
+                    "⭕️𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻⭕️",
+                        url="https://t.me/tvseriezzz_update"
                 )
         ],
         [
