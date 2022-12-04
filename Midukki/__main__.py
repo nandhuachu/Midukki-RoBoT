@@ -2,7 +2,7 @@ from os import environ
 from random import choice 
 from pyrogram import filters, enums
 from pyrogram.errors import UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from Midukki import Bots, Configs
+from . import Bots, Configs
 from .midukki import Midukki_RoboT
 from .scripts import START_TXT, HELP_TXT, ABOUT_TXT, STATUS_TXT, DONATE_TXT
 from Midukki.modules import vars
