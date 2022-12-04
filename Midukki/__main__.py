@@ -48,7 +48,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
 
     if message.text.startswith("/start muhammedrk"):
         if Configs.AUTH_CHANNEL != 1:
-            invite_link = await client.create_chat_invite_link(int(Configs.AUTH_CHANNEL))
+            invite_link = await client.create_chat_invite_link(Configs.AUTH_CHANNEL)
             try:
                 user = await client.get_chat_member(Configs.AUTH_CHANNEL, user_ids)
                 if user.status == enums.ChatMemberStatus.BANNED: # Banned chat member
