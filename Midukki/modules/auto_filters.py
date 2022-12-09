@@ -1092,3 +1092,4 @@ async def check_correct_spelling(message, settings):
     except Exception as e:
         await message.reply(Customize.SPELLCHECK_CAPTION.format(mention=user_mention(message), title=message.chat.title, query=message.text))
         await message.reply(e)
+
